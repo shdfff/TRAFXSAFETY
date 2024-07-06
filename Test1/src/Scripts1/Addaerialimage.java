@@ -17,7 +17,7 @@ public class Addaerialimage {
 public static void main(String[] args) throws Exception {
 		
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\shrikant.dodamani\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\shrikant.dodamani\\Downloads\\chromedriver-win64 (2)\\chromedriver-win64\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		JavascriptExecutor js=(JavascriptExecutor) driver;
 		driver.manage().window().maximize();
