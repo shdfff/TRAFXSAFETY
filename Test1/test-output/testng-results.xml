@@ -2,34 +2,38 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-06T12:55:12 IST" name="Default suite" finished-at="2024-07-06T12:56:25 IST" duration-ms="72298">
+  <suite started-at="2024-07-09T17:42:42 IST" name="Default suite" finished-at="2024-07-09T17:42:49 IST" duration-ms="6248">
     <groups>
     </groups>
-    <test started-at="2024-07-06T12:55:12 IST" name="Default test" finished-at="2024-07-06T12:56:25 IST" duration-ms="72298">
+    <test started-at="2024-07-09T17:42:42 IST" name="Default test" finished-at="2024-07-09T17:42:49 IST" duration-ms="6248">
       <class name="Scripts1.OpenCalibration">
-        <test-method is-config="true" signature="Openpage()[pri:0, instance:Scripts1.OpenCalibration@229f66ed]" started-at="2024-07-06T12:55:12 IST" name="Openpage" finished-at="2024-07-06T12:55:15 IST" duration-ms="3100" status="PASS">
+        <test-method is-config="true" signature="Openpage()[pri:0, instance:Scripts1.OpenCalibration@229f66ed]" started-at="2024-07-09T17:42:43 IST" name="Openpage" finished-at="2024-07-09T17:42:45 IST" duration-ms="2075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Openpage -->
-        <test-method signature="OpenCalibrat()[pri:0, instance:Scripts1.OpenCalibration@229f66ed]" started-at="2024-07-06T12:55:15 IST" name="OpenCalibrat" finished-at="2024-07-06T12:56:24 IST" duration-ms="69129" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method signature="OpenCalibrat()[pri:0, instance:Scripts1.OpenCalibration@229f66ed]" started-at="2024-07-09T17:42:45 IST" name="OpenCalibrat" finished-at="2024-07-09T17:42:49 IST" duration-ms="4136" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[element click intercepted: Element <button type="button" id="add_tempMvmt_button" class="disabled btn btn-primary" style="float: right;">...</button> is not clickable at point (1065, 668). Other element would receive the click: <div class="modal-footer">...</div>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=126.0.6478.127)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'SHRIKANTD', ip: '192.168.29.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.62 (b2781ca4c383..., userDataDir: C:\Users\SHRIKA~1.DOD\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 005efa8df6c510dad6b0dc4f80c4522c]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.62 (b2781ca4c383..., userDataDir: C:\Users\SHRIKA~1.DOD\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59120}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a533135b2ddf44977698dbd03c45728
+*** Element info: {Using=id, value=user_email}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" id="add_tempMvmt_button" class="disabled btn btn-primary" style="float: right;">...</button> is not clickable at point (1065, 668). Other element would receive the click: <div class="modal-footer">...</div>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=126.0.6478.127)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
 System info: host: 'SHRIKANTD', ip: '192.168.29.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.62 (b2781ca4c383..., userDataDir: C:\Users\SHRIKA~1.DOD\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 005efa8df6c510dad6b0dc4f80c4522c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.62 (b2781ca4c383..., userDataDir: C:\Users\SHRIKA~1.DOD\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59120}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a533135b2ddf44977698dbd03c45728
+*** Element info: {Using=id, value=user_email}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -41,9 +45,11 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at Scripts1.OpenCalibration.OpenCalibrat(OpenCalibration.java:81)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Scripts1.OpenCalibration.OpenCalibrat(OpenCalibration.java:38)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -74,7 +80,7 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenCalibrat -->
