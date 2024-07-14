@@ -76,7 +76,9 @@ public static void main(String[] args) throws Exception {
       // driver.navigate().refresh();
        
       driver.findElement(By.xpath("//*[text()='Close']")).click();
-       
+      driver.findElement(By.xpath("//*[text()='Close']")).click();
+      driver.findElement(By.xpath("//*[text()='Close']")).click();
+
        
      
        
