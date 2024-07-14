@@ -79,7 +79,7 @@ public static void main(String[] args) throws Exception {
       driver.findElement(By.xpath("//*[text()='Close']")).click();
       driver.findElement(By.xpath("//*[text()='Close']")).click();
 
-       
+       System.out.println("Hello git");
      
        
        
